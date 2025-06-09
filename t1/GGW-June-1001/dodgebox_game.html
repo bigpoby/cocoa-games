@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dodgebox</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dodgebox.CSS" />
+  </head>
+  <body>
+    <div id="title">DODGEBOX</div>
+    <div id="game_container">
+      <video id="background_video" autoplay loop muted playsinline>
+        <source src="galaxy_loop_pixabay.mp4" type="video/mp4" />
+      </video>
+      <button id="start_button">시작</button>
+      <div id="comment_start">
+        Press Space Bar to Start<br /><br /><br /><br />
+        <span class="controls">Controls : WASD / Arrow</span>
+      </div>
+      <div id="center_overlay">
+        <div id="final_score"></div>
+        <button id="restart_button">시작 화면으로</button>
+      </div>
+      <div id="comment_restart">Press Space Bar to Restart</div>
+    </div>
+    <div id="score_display"></div>
+    <script src="dodgebox.js"></script>
+  </body>
+</html>
