@@ -1,0 +1,9 @@
+[submodule "t1"]
+	path = t1
+	url = https://github.com/June-1001/Team1-Lime-1st-Project
+[submodule "t2"]
+	path = t2
+	url = https://github.com/wjdgus9033/2-Team-Game-Project
+[submodule "t3"]
+	path = t3
+	url = https://github.com/KimYeongRan2050/game-project
