@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>풀스택 7기 1차 프로젝트</title>
+    <link rel="stylesheet" href="./common/css/style.css">
+    <script src="./common/js/script.js"></script>
 </head>
 <body>
-    <ul>
-        <li><a href="./t1/index.html">t1</a></li>
-        <li><a href="./t2/2TeamGame/index.html">t2</a></li>
-        <li><a href="./t3/index.html">t3</a></li>
-    </ul>
+    <div class="container">
+        <nav>
+            <img src="./assets/imgs/nav01.png" alt="아래 팀명을 클릭하세요.">
+            <img src="./assets/imgs/nav02.png" data-type="vertical" usemap="#vertmap" alt="세로메뉴">
+            <map name="vertmap">
+                <area shape="rect" coords="10, 10, 190, 130" href="t1/index.html" alt="Go-1팀">
+                <area shape="rect" coords="10, 180, 190, 290" href="t2/2TeamGame/index.html" alt="Go-2팀">
+                <area shape="rect" coords="10, 320, 190, 450" href="t3/index.html" alt="Go-3팀">
+            </map>
+            <div data-type="horizontal">
+                <a href="./t1/index.html"><img src="./assets/imgs/nav03_01.png" alt="Go-1팀"></a>
+                <a href="./t2/2TeamGame/index.html"><img src="./assets/imgs/nav03_02.png" alt="Go-1팀"></a>
+                <a href="./t3/index.html"><img src="./assets/imgs/nav03_03.png" alt="Go-1팀"></a>
+            </div>
+        </nav>
+        <main>
+            <img src="./assets/imgs/main01.jpg" alt="">
+            <img src="./assets/imgs/main02.jpg" alt="">
+        </main>
+    </div>
+    
 </body>
 </html>
